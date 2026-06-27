@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>LOEK UNIVERSAL</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- LOADING -->
+
+<div id="loader">
+
+<img src="logo.png" class="logo">
+
+
+<div class="loader-circle">
+
+<span>LOEK</span>
+
+</div>
+
+
+<h3>Loading...</h3>
+
+
+<p>Created by Arsito</p>
+
+
+</div>
+
+
+
+
+
+<div id="app">
+
+
+
+<!-- TOP -->
+
+<div class="top">
+
+
+<button class="menu" onclick="openMenu()">
+☰
+</button>
+
+
+<img src="logo.png" class="small-logo">
+
+
+</div>
+
+
+
+
+
+
+<!-- MENU -->
+
+<div id="menuBox" class="glass hidden">
+
+
+<h2>MENU</h2>
+
+
+<p>
+🔔 Notifications
+<br>
+<span>Coming Soon 🔜</span>
+</p>
+
+
+<br>
+
+
+<p>
+
+🔄 Updates
+
+<br>
+
+<span>Coming Soon 🔜</span>
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- HOME -->
+
+
+<section id="home">
+
+
+<img src="logo.png" class="home-logo">
+
+
+<h1>
+LOEK UNIVERSAL
+</h1>
+
+
+
+<p class="owner">
+
+------- OWNER : GOKULEO FX -------
+
+</p>
+
+
+
+<div class="buttons">
+
+
+<button onclick="moviePage()">
+
+🎬 MOVIE CUTZ
+
+</button>
+
+
+
+<button onclick="supportPage()">
+
+💬 SUPPORT
+
+</button>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- MOVIE INSTRUCTION -->
+
+
+<section id="movieIntro" class="hidden">
+
+
+<h2>
+MOVIE CUTZ
+</h2>
+
+
+
+
+<div class="glass">
+
+
+<h3>English</h3>
+
+
+<p>
+
+Click movie name to view details.
+Drive link will open from category.
+If no link available → Updating Soon 🔜
+
+</p>
+
+
+
+<h3>தமிழ்</h3>
+
+
+<p>
+
+Movie name click செய்து details பார்க்கவும்.
+Category click செய்தால் drive open ஆகும்.
+
+</p>
+
+
+
+
+<h3>മലയാളം</h3>
+
+
+<p>
+
+Movie name click ചെയ്ത് details കാണുക.
+Link ഇല്ലെങ്കിൽ Updating Soon 🔜
+
+</p>
+
+
+
+<button onclick="showFolders()">
+
+CONTINUE
+
+</button>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- FOLDERS -->
+
+
+<section id="folders" class="hidden">
+
+
+
+<h2>
+MOVIE FOLDERS
+</h2>
+
+
+
+<input 
+id="search"
+type="text"
+placeholder="Search movie..."
+onkeyup="searchMovie()"
+>
+
+
+
+
+<div class="folder"
+onclick="openFolder('vijay')">
+
+📁 Vijay Movies
+
+</div>
+
+
+
+
+<div class="folder"
+onclick="openFolder('surya')">
+
+📁 Surya Movies
+
+</div>
+
+
+
+
+
+<div class="folder"
+onclick="openFolder('vjs')">
+
+📁 Vijay Sethupathi Movies
+
+</div>
+
+
+
+
+
+<div class="folder"
+onclick="openFolder('kamal')">
+
+📁 Kamal Hassan Movies
+
+</div>
+
+
+
+
+
+<div class="folder"
+onclick="openFolder('lokesh')">
+
+📁 Lokesh Kanakaraj Movies
+
+</div>
+
+
+
+
+
+
+<div id="movies">
+
+
+</div>
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- SUPPORT -->
+
+
+<section id="support" class="hidden">
+
+
+
+<h2>
+SUPPORT
+</h2>
+
+
+
+
+<a href="https://www.instagram.com/_loek.universal_?igsh=MWljcDF2eG41enVndQ=="
+target="_blank">
+
+
+<button>
+
+📸 Instagram
+
+</button>
+
+
+</a>
+
+
+
+
+
+<a href="https://chat.whatsapp.com/CWHp5pMfQZxJwRXPmKC3dO?s=cl&p=a&ilr=2&amv=3"
+target="_blank">
+
+
+<button>
+
+💬 WhatsApp Group
+
+</button>
+
+
+</a>
+
+
+
+
+</section>
+
+
+
+
+
+
+</div>
+
+
+
+
+<script src="script.js"></script>
+
+
+
+</body>
+
+</html>
